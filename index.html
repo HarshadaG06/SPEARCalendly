@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JHU SPEAR · Turn-Taking Study</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     :root {
       --ink: #1a1a1a;
@@ -58,7 +67,7 @@
       font-weight: 600;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.55);
+      color: rgba(255, 255, 255, 0.55);
       margin-bottom: 16px;
     }
 
@@ -84,8 +93,8 @@
       font-weight: 500;
       padding: 4px 10px;
       border-radius: 20px;
-      background: rgba(255,255,255,0.15);
-      color: rgba(255,255,255,0.9);
+      background: rgba(255, 255, 255, 0.15);
+      color: rgba(255, 255, 255, 0.9);
       letter-spacing: 0.02em;
     }
 
@@ -118,7 +127,9 @@
       align-items: flex-start;
     }
 
-    .step:first-child { border-top: 1px solid var(--rule); }
+    .step:first-child {
+      border-top: 1px solid var(--rule);
+    }
 
     .step-num {
       width: 28px;
@@ -169,7 +180,7 @@
 
     .action-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
     }
 
     .action-card.book {
@@ -228,10 +239,13 @@
     }
 
     @media (max-width: 500px) {
-      .action-cards { grid-template-columns: 1fr; }
+      .action-cards {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <div class="hero">
@@ -240,7 +254,7 @@
       <h1>SPEAR — Turn-Taking Naturalness Conversational Study</h1>
       <div class="badges">
         <span class="badge">Audio &amp; Video Recorded</span>
-        <span class="badge">~60 minutes</span>
+        <span class="badge">~80 minutes</span>
         <span class="badge">Paired Session</span>
       </div>
     </div>
@@ -249,26 +263,30 @@
   <div class="container">
 
     <p class="intro">
-      Thank you for your interest. In this study, you will have five short spoken conversations with another participant.
-      If you have any friend/family member/partner/colleague who is interested in participating with you then we recommend you to ask them to complete the prolific participation sign up and book a slot with you.
+      Thank you for your interest. In this study, you will have five short spoken conversations with another
+      participant.
+      If you have any friend/family member/partner/colleague who is interested in participating with you then we
+      recommend you to ask them to complete the prolific participation sign up and book a slot with you.
     </p>
     <p class="intro"><strong>Important: Your partner must be a native English speaker.
-      <br>If you are an invited partner, you do not need to schedule a slot, your partner has already done that.
-    </strong></p>
+        <br>If you are an invited partner, you do not need to schedule a slot, your partner has already done that.
+      </strong></p>
 
     <div class="steps">
       <div class="step">
         <div class="step-num">1</div>
         <div class="step-body">
           <h4>Book a time slot</h4>
-          <p>Use the scheduling link below. Include your Prolific ID when booking — this is required to match your record and process payment.</p>
+          <p>Use the scheduling link below. Include your Prolific ID when booking — this is required to match your
+            record and process payment.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-num">2</div>
         <div class="step-body">
           <h4>Complete the consent form</h4>
-          <p>Once your slot is confirmed, sign the Participant Informed Consent Form before attending. You cannot begin the session without it.</p>
+          <p>Once your slot is confirmed, sign the Participant Informed Consent Form before attending. You cannot begin
+            the session without it.</p>
         </div>
       </div>
       <div class="step">
@@ -281,10 +299,11 @@
     </div>
     <div class="action-cards">
       <a href="https://calendly.com/spearjhu/new-meeting" class="action-card book">
-      <div class="card-label">Step 1 · Booking with a partner</div>
-      <div class="card-title">Book with a partner</div>
-      <div class="card-sub"><strong>Important:</strong> Please provide your partner’s Prolific ID when booking so we can match you correctly. If you are the invited partner, you do not need to book a slot.</div>
-      <div class="card-arrow">→</div>
+        <div class="card-label">Step 1 · Booking with a partner</div>
+        <div class="card-title">Book with a partner</div>
+        <div class="card-sub"><strong>Important:</strong> Please provide your partner’s Prolific ID when booking so we
+          can match you correctly. If you are the invited partner, you do not need to book a slot.</div>
+        <div class="card-arrow">→</div>
       </a>
       <!-- <a href="https://calendly.com/harshada-gundecha06/turn-taking-naturalness-conversational-study-clone" class="action-card book" style="background: #1a4a9e;">
       <div class="card-label">Step 1 · Booking alone</div>
@@ -298,7 +317,8 @@
         <div class="card-sub">Opens the scheduling calendar</div>
         <div class="card-arrow">→</div>
       </a> -->
-      <a href="https://apps.docusign.com/webforms/us/4b673809fb2e6016691b951d3677403f" target="_blank" class="action-card consent">
+      <a href="https://apps.docusign.com/webforms/us/4b673809fb2e6016691b951d3677403f" target="_blank"
+        class="action-card consent">
         <div class="card-label">Step 2 · Already scheduled</div>
         <div class="card-title">Complete consent form</div>
         <div class="card-sub">Required before your session begins</div>
@@ -307,13 +327,16 @@
     </div>
 
     <div class="note">
-      <strong>Before you book:</strong> You will need a computer, working camera and microphone, and a quiet space with stable internet. If you cannot attend after booking, please message us on Prolific as soon as possible.
+      <strong>Before you book:</strong> You will need a computer, working camera and microphone, and a quiet space with
+      stable internet. If you cannot attend after booking, please message us on Prolific as soon as possible.
     </div>
 
     <footer>
-      For questions, contact the study team via Prolific messaging. Do not share personal contact details during the conversation itself.
+      For questions, contact the study team via Prolific messaging. Do not share personal contact details during the
+      conversation itself.
     </footer>
 
   </div>
 </body>
+
 </html>
